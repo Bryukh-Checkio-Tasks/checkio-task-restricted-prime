@@ -1,3 +1,10 @@
+<style>
+    ul.words li {
+        font-weight: bold;
+        font-style: italic;
+    }
+</style>
+
 <p>
     Now we want to learn our
     <a href="http://www.checkio.org/mission/restricted-sum/share/9549df79da4bdb0a8628d2ed27663636/">censored calculator</a>
@@ -6,14 +13,15 @@
 </p>
 
 <p>The list of forbidden words and symbols:</p>
-<ul>
+<ul class="words">
     <li>import</li>
     <li>div</li>
+    <li>eval</li>
     <li>&frasl;</li>
     <li>digits (0-9)</li>
 </ul>
 <p>
-    Given a number (n&nbsp;&lte;&nbsp;10000), you should check is it prime or not.
+    Given a number (0&nbsp;&lt;&nbsp;n&nbsp;&lt;&nbsp;10000), you should check is it prime or not.
     Your solution should not contain any of the forbidden words, symbols or digits (even as a part of another word).
 </p>
 
