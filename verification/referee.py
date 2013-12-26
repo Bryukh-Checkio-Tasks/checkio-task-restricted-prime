@@ -8,7 +8,7 @@ from tests import TESTS
 
 
 def forbidden(code, runner):
-    f_words = ["eval", "import", "div", "/"]
+    f_words = ["eval", "import", "div", "range", "len", "/"]
     f_words.extend(str(i) for i in range(10))
     for w in f_words:
         if w in code:
