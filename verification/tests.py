@@ -7,7 +7,6 @@ Each test is dict with
     "explanation" -- not necessary key, it's using for additional info in animation.
 """
 
-
 TESTS = {
     "Basics": [
         {
@@ -70,7 +69,72 @@ TESTS = {
             "input": 7755,
             "answer": False
         },
-
+        {
+            "input": 341,
+            "answer": False},
+        {
+            "input": 561,
+            "answer": False},
+        {
+            "input": 645,
+            "answer": False},
+        {
+            "input": 1105,
+            "answer": False},
+        {
+            "input": 1387,
+            "answer": False},
+        {
+            "input": 1729,
+            "answer": False},
+        {
+            "input": 1905,
+            "answer": False},
+        {
+            "input": 2047,
+            "answer": False},
+        {
+            "input": 2465,
+            "answer": False},
+        {
+            "input": 2701,
+            "answer": False},
+        {
+            "input": 2821,
+            "answer": False},
+        {
+            "input": 3277,
+            "answer": False},
+        {
+            "input": 4033,
+            "answer": False},
+        {
+            "input": 4369,
+            "answer": False},
+        {
+            "input": 4371,
+            "answer": False},
+        {
+            "input": 4681,
+            "answer": False},
+        {
+            "input": 5461,
+            "answer": False},
+        {
+            "input": 6601,
+            "answer": False},
+        {
+            "input": 7957,
+            "answer": False},
+        {
+            "input": 8321,
+            "answer": False},
+        {
+            "input": 8481,
+            "answer": False},
+        {
+            "input": 8911,
+            "answer": False},
 
     ]
 }
